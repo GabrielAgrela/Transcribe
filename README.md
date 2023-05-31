@@ -27,6 +27,7 @@ Ensure you have the required environment variables set up:
 These can be set in a `.env` file in the project root:
 
 API_KEY=your_api_key
+
 REGION=your_region
 
 ## Usage
