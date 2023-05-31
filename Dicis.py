@@ -2,7 +2,7 @@ from config import Config
 from audio_saver import FileAudioSaver
 from text_to_speech_service import TextToSpeechService
 from voice_factory import VoiceFactory
-from utils import ensure_directory_exists, get_output_path
+from utils import ensure_directory_exists, get_output_path, ensure_file_exists
 
 
 def main():
@@ -15,7 +15,10 @@ def main():
     saver = FileAudioSaver()
     service = TextToSpeechService(config, saver)
 
-    with open("sentences.txt", "r", encoding="utf-8") as file:
+    sentences_file = "sentences.txt"
+    ensure_file_exists(sentences_file)
+
+    with open(sentences_file, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
     for i, line in enumerate(lines):
