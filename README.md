@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Dicis</title>
-</head>
 <body>
     <h1>Dicis -Text to Speech Service</h1>
     <p>This project is a Python-based text-to-speech converter that uses the Microsoft Cognitive Services API. Given text input, it generates an audio file in mp3 format. It's designed to be simple to use, efficient, and modular.</p>
