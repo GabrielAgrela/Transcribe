@@ -1,4 +1,4 @@
-# Dicis - Text to Speech Service
+**# Dicis - Text to Speech Service
 
 This project is a Python-based text-to-speech converter that uses the Microsoft Cognitive Services API. Given text input file, it generates audio files in mp3 format. It's designed to be simple to use, efficient, and modular.
 
@@ -45,3 +45,4 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+**
