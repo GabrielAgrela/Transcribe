@@ -13,7 +13,7 @@ This project is a Python-based text-to-speech converter that uses the Microsoft 
 
 Clone the repository to your local machine:
 
-git clone https://github.com/your_username/text_to_speech_service.git
+git clone https://github.com/GabrielAgrela/Dicis.git
 
 Install the necessary Python packages:
 
